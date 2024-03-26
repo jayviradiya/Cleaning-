@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <!-- font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- links -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- slider-link -->
+    <link rel="stylesheet" href="css/splide-core.min.css">
+    <link rel="stylesheet" href="css/splide-default.min.css">
+    <link rel="stylesheet" href="css/splide-sea-green.min.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+</head>
+<body>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/splide.min.js"></script>
+
+
+
+    <!-- hdr 1 -->
+    <div class="container-fluid h-hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 d-flex">
+                    <div class="d-flex left">
+                        <p>Follow us:</p>
+                        <a href="https://www.facebook.com/QodeInteractive/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/QodeInteractive"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/qodeinteractive/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-9 d-flex justify-content-end">
+                    <div class="d-flex right">
+                        <p><a href="index.html">About</a></p>
+                        <p><a href="index.html">FAQ</a></p>
+                    </div>
+                    <div class="call">
+                        <p>Call us: <a href="tel:099444433">099 4444 33</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- hdr -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <div class="container d-flex">
+                <a class="navbar-brand" href="#"><img src="img/w-logo.png" alt=""></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="review.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- small-hdr -->
+        <div class="d-flex d-hide">
+            <a href=""><img src="img/w-logo.png" alt=""></a>
+        </div>
+        <div class="my-tog-btn" id="text">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="side-menu side-menu-active">
+            <div class="text1">
+                <i class="fa-solid fa-xmark i-con"></i>
+            </div>
+            <div class="inner">
+                <div class="s-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="review.html">Reviews</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- hide/show btn -->
+    <script>
+        $(document).ready(function () {
+            var i = 0;
+            $("#text").click(function () {
+                if (i % 2 == 1) {
+                    $(".side-menu").hide(300)
+                }
+                else {
+                    $(".side-menu").show(300)
+                }
+            });
+        });
+        $(document).ready(function () {
+            var a = 1;
+            $(".text1").click(function () {
+                if (a % 2 == 1) {
+                    $(".side-menu").hide(300)
+                }
+                else {
+                    $(".side-menu").show(300)
+                }
+            });
+        });
+    </script>
+
+
+
+    <!-- slider -->
+    <div class="container-fluid p-0">
+        <div class="slider-pic d-flex justify-content-center text-center align-items-center">
+            <div class="tx">
+                <h1>Cleaning Services</h1>
+                <p>Lorem Ipsum. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor nisi elit consequat.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- back-img with service-4cards -->
+    <div class="container-fluid p-ing back-img">
+        <div class="container">
+            <div class="row p-botm">
+                <div class="col-3">
+                    <div class="bk">
+                        <div class="s1-pic"></div>
+                        <h6>General office clean</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="bk">
+                        <div class="s2-pic"></div>
+                        <h6>Post renovat cleaning</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="bk">
+                        <div class="s3-pic"></div>
+                        <h6>Spring cleaning</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="bk">
+                        <div class="s4-pic"></div>
+                        <h6>Post move cleaning</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-botm2">
+                <div class="col-3">
+                <div class="bk">
+                    <div class="s5-pic"></div>
+                    <h6>Carpet cleaning</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="bk">
+                    <div class="s6-pic"></div>
+                    <h6>Extra services</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="bk">
+                    <div class="s7-pic"></div>
+                    <h6>Ironing laundry</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="bk">
+                    <div class="s8-pic"></div>
+                    <h6>Government facilities</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- futter -->
+    <div class="container-fluid p-0 ftr-bk">
+        <div class="container ftr-bk2">
+            <div class="row">
+                <div class="col-3 ftr-tx1">
+                    <a class="ftr-logo" href="#"><img src="img/w-logo-wht.png" alt=""></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+                </div>
+                <div class="col-3 ftr-tx2">
+                    <h5>Contact Us</h5>
+                    <p><a href="https://www.google.com/maps/place/155+E+26th+St+%235b,+New+York,+NY+10010,+USA/@40.7410247,-73.982202,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25909ef0ba577:0xf3cd8ada4588e72b!8m2!3d40.7410247!4d-73.982202?hl=en&entry=ttu">155 E 26th St, 5B New <br> York, NY 10010</a></p>
+                    <p class="text-decoration-underline"><a href="https://www.google.com/">Google maps</a></p>
+                    <p class="m-0"><a href="">T : 008-325-9854</a></p>
+                    <p><a href="">E : bridge@example.com</a></p>
+                </div>
+                <div class="col-3 ftr-tx2">
+                    <h5>Working Hours</h5>
+                    <p>Mon - Fri: 8am - 5pm <br> Weekend: 8am - 4pm</p>
+                    <h4>Follow Us</h4>
+                    <div class="f-icon d-flex">
+                        <a href="https://www.facebook.com/QodeInteractive/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/qode-themes"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.pinterest.com/qodeinteractive/_created/"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-3 ftr-tx2">
+                    <h5>Get Free Estimate</h5>
+                    <h3>008-325-9854</h3>
+                    <p>Our online scheduling and payment system is safe.</p>
+                    <a href="index.html"><button type="button" class="btn s-btn btn-secondary">Request Online</button></a>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="space">
+        <p>Copyright @ <a href="">Qode Interactive 2021</a></p>
+    </div>
+    <!-- button fix -->
+    <div class="demo1"><i class="fa-solid fa-chevron-left fa-rotate-90"></i></div>
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 100) {
+                $('.demo1').addClass('test1')
+            }
+            else {
+                $('.demo1').removeClass('test1')
+            }
+        })
+        $('.demo1').click(function () {
+            $("html,body").animate
+                ({ scrollTop: 0 }, 100)
+        })
+    </script>
+    
+</body>
+</html>
